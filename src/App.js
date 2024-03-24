@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// Dependencies, Libraries and Components
+import Slider from "./components/Slider";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Navbar Component */}
+      <Navbar />
+      {/* Slider Compnent */}
+      <Slider />
+    </>
   );
 }
+
+//  Great Exercise and Practice working on this Assignments
 
 export default App;
